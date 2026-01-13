@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: Shift3D
+Version: 1.0
+Summary: 3D Shift in the temporal and spatial demension
+Home-page: https://github.com/xxx/xxx
+Author: calayzhou
+Requires-Dist: torch
+Requires-Dist: torchvision
