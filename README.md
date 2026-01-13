@@ -11,11 +11,12 @@
 
 ### 3. Inference Demo
 
-|**SO2**|**CH4**|**NH3**|
+|**SO2(Sulfur Dioxide)**|**CH4(Methane)**|**NH3(Ammonia)**|
 |:---:|:--:|:---:|
 |![](imgs/SO2.gif)|![](imgs/CH4.gif)|![](imgs/NH3.gif)|
 
 > **Cite**
+> 
 > @ARTICLE{11240221,
 > author={Xiong, Haiyang and Cao, Liqin and Wang, Du and Du, Yuhao and Zhong, Yanfei and Wang, Shijin},
 > journal={IEEE Transactions on Geoscience and Remote Sensing}, 
