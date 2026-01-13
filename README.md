@@ -15,24 +15,15 @@
 |:---:|:--:|:---:|
 |![](imgs/SO2.gif)|![](imgs/CH4.gif)|![](imgs/NH3.gif)|
 
-> **Cite**
+> **Citation:**
 > 
 > @ARTICLE{11240221,
-> 
 > author={Xiong, Haiyang and Cao, Liqin and Wang, Du and Du, Yuhao and Zhong, Yanfei and Wang, Shijin},
-> 
 > journal={IEEE Transactions on Geoscience and Remote Sensing},
-> 
 > title={CFDNet: Coupling Computational Fluid Dynamics With Convolutional Neural Networks for Gas Detection Using Thermal Infrared Multispectral Video},
-> 
 > year={2025},
-> 
 > volume={63},
-> 
 > number={},
-> 
 > pages={1-17},
-> 
 > keywords={Feature extraction;Videos;Deep learning;Object detection;Imaging;Shape;Computational fluid dynamics;Optical flow;Entropy;Cameras;Gas detection;infrared multispectral video imaging;spatial–temporal feature extraction},
-> 
 > doi={10.1109/TGRS.2025.3631727}}
