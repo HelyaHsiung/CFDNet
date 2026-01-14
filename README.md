@@ -16,11 +16,21 @@
 |<img src="imgs/SO2.gif" style="width:33.33%;"|<img src="imgs/CH4.gif" style="width:33.33%;"|<img src="imgs/NH3.gif" style="width:33.33%;"|
 
 
-<p align="center">
-  <img src="imgs/SO2.gif" style="width:33.33%; display:inline-block;">
-  <img src="imgs/CH4.gif" style="width:33.33%; display:inline-block;">
-  <img src="imgs/NH3.gif" style="width:33.33%; display:inline-block;">
-</p>
+<div style="display:flex; justify-content:center; text-align:center;">
+  <div style="flex:1; margin:2px;">
+    <b>SO₂ (Sulfur Dioxide)</b><br>
+    <img src="imgs/SO2.gif" style="width:100%;">
+  </div>
+  <div style="flex:1; margin:2px;">
+    <b>CH₄ (Methane)</b><br>
+    <img src="imgs/CH4.gif" style="width:100%;">
+  </div>
+  <div style="flex:1; margin:2px;">
+    <b>NH₃ (Ammonia)</b><br>
+    <img src="imgs/NH3.gif" style="width:100%;">
+  </div>
+</div>
+
 
 > **Citation:**
 > 
