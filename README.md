@@ -23,9 +23,9 @@
     <th style="width:33%;">NH₃ (Ammonia)</th>
   </tr>
   <tr>
-    <td><img src="imgs/SO2.gif" style="width:100%;" loading="lazy"></td>
-    <td><img src="imgs/CH4.gif" style="width:100%;" loading="lazy"></td>
-    <td><img src="imgs/NH3.gif" style="width:100%;" loading="lazy"></td>
+    <td><img src="imgs/SO2.gif" style="width:100%; max-width:300px;"></td>
+    <td><img src="imgs/CH4.gif" style="width:100%; max-width:300px;"></td>
+    <td><img src="imgs/NH3.gif" style="width:100%; max-width:300px;"></td>
   </tr>
 </table>
 
