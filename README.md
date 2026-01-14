@@ -13,7 +13,7 @@
 
 |**SO2 (Sulfur Dioxide)**|**CH4 (Methane)**|**NH3 (Ammonia)**|
 |:---:|:--:|:---:|
-|![](imgs/SO2.gif)|![](imgs/CH4.gif)|![](imgs/NH3.gif)|
+|<img src="imgs/SO2.gif" width="400">|![](imgs/CH4.gif)|![](imgs/NH3.gif)|
 
 > **Citation:**
 > 
