@@ -16,18 +16,21 @@
 |<img src="imgs/SO2.gif" style="width:33.33%;"|<img src="imgs/CH4.gif" style="width:33.33%;"|<img src="imgs/NH3.gif" style="width:33.33%;"|
 
 
-<table align="center">
-  <tr>
-    <th style="width:33%;">SO₂ (Sulfur Dioxide)</th>
-    <th style="width:33%;">CH₄ (Methane)</th>
-    <th style="width:33%;">NH₃ (Ammonia)</th>
-  </tr>
-  <tr>
-    <td><img src="imgs/SO2.gif" style="width:100%; max-width:300px;"></td>
-    <td><img src="imgs/CH4.gif" style="width:100%; max-width:300px;"></td>
-    <td><img src="imgs/NH3.gif" style="width:100%; max-width:300px;"></td>
-  </tr>
-</table>
+<div style="text-align:center;">
+  <div style="display:inline-block; width:33.33%;">
+    <b>SO₂</b><br>
+    <img src="imgs/SO2.gif" style="width:100%; height:auto;">
+  </div>
+  <div style="display:inline-block; width:33.33%;">
+    <b>CH₄</b><br>
+    <img src="imgs/CH4.gif" style="width:100%; height:auto;">
+  </div>
+  <div style="display:inline-block; width:33.33%;">
+    <b>NH₃</b><br>
+    <img src="imgs/NH3.gif" style="width:100%; height:auto;">
+  </div>
+</div>
+
 
 > **Citation:**
 > 
