@@ -14,7 +14,23 @@
 |SO₂ (Sulfur Dioxide)|CH₄ (Methane)|NH₃ (Ammonia)|
 |:---:|:---:|:---:|
 |<img src="imgs/SO2.gif" style="width:33.33%;"|<img src="imgs/CH4.gif" style="width:33.33%;"|<img src="imgs/NH3.gif" style="width:33.33%;"|
- 
+
+
+<div style="display:flex; justify-content:center; text-align:center;">
+  <div style="width:33.33%;">
+    <b>SO₂ (Sulfur Dioxide)</b><br>
+    <img src="imgs/SO2.gif" style="width:100%;">
+  </div>
+  <div style="width:33.33%;">
+    <b>CH₄ (Methane)</b><br>
+    <img src="imgs/CH4.gif" style="width:100%;">
+  </div>
+  <div style="width:33.33%;">
+    <b>NH₃ (Ammonia)</b><br>
+    <img src="imgs/NH3.gif" style="width:100%;">
+  </div>
+</div>
+
 > **Citation:**
 > 
 > @ARTICLE{11240221,
