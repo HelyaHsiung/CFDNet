@@ -18,18 +18,16 @@
 
 <table align="center">
   <tr>
-    <th>SO₂ (Sulfur Dioxide)</th>
-    <th>CH₄ (Methane)</th>
-    <th>NH₃ (Ammonia)</th>
+    <th style="width:33%;">SO₂ (Sulfur Dioxide)</th>
+    <th style="width:33%;">CH₄ (Methane)</th>
+    <th style="width:33%;">NH₃ (Ammonia)</th>
   </tr>
   <tr>
-    <td><img src="imgs/SO2.gif" width="100%"></td>
-    <td><img src="imgs/CH4.gif" width="100%"></td>
-    <td><img src="imgs/NH3.gif" width="100%"></td>
+    <td><img src="imgs/SO2.gif" style="width:100%;"></td>
+    <td><img src="imgs/CH4.gif" style="width:100%;"></td>
+    <td><img src="imgs/NH3.gif" style="width:100%;"></td>
   </tr>
 </table>
-
-
 
 > **Citation:**
 > 
