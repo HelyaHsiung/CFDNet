@@ -11,21 +11,10 @@
 
 ### 3. Inference Demo
 
-<p align="center">
-  <span style="display:inline-block; text-align:center; width:32%;">
-    <b>SO₂ (Sulfur Dioxide)</b><br>
-    <img src="imgs/SO2.gif" width="100%">
-  </span>
-  <span style="display:inline-block; text-align:center; width:32%;">
-    <b>CH₄ (Methane)</b><br>
-    <img src="imgs/CH4.gif" width="100%">
-  </span>
-  <span style="display:inline-block; text-align:center; width:32%;">
-    <b>NH₃ (Ammonia)</b><br>
-    <img src="imgs/NH3.gif" width="100%">
-  </span>
-</p>
-
+||||
+|:---:|:---:|:---:|
+|<img src="imgs/SO2.gif" width="100%">|<img src="imgs/CH4.gif" width="100%">|<img src="imgs/NH3.gif" width="100%">|
+ 
 > **Citation:**
 > 
 > @ARTICLE{11240221,
