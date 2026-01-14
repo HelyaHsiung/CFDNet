@@ -11,9 +11,16 @@
 
 ### 3. Inference Demo
 
-| **SO₂ (Sulfur Dioxide)** | **CH₄ (Methane)** | **NH₃ (Ammonia)** |
-|:---:|:---:|:---:|
-| <img src="imgs/SO2.gif" width="100%"> | <img src="imgs/CH4.gif" width="100%"> | <img src="imgs/NH3.gif" width="100%"> |
+<p align="center">
+  <b>SO₂ (Sulfur Dioxide)</b><br>
+  <img src="imgs/SO2.gif" width="30%">
+  &nbsp;&nbsp;
+  <b>CH₄ (Methane)</b><br>
+  <img src="imgs/CH4.gif" width="30%">
+  &nbsp;&nbsp;
+  <b>NH₃ (Ammonia)</b><br>
+  <img src="imgs/NH3.gif" width="30%">
+</p>
 
 > **Citation:**
 > 
