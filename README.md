@@ -16,21 +16,18 @@
 |<img src="imgs/SO2.gif" style="width:33.33%;"|<img src="imgs/CH4.gif" style="width:33.33%;"|<img src="imgs/NH3.gif" style="width:33.33%;"|
 
 
-<div style="text-align:center;">
-  <div style="display:inline-block; width:33.33%;">
-    <b>SO₂</b><br>
-    <img src="imgs/SO2.gif" style="width:100%; height:auto;">
-  </div>
-  <div style="display:inline-block; width:33.33%;">
-    <b>CH₄</b><br>
-    <img src="imgs/CH4.gif" style="width:100%; height:auto;">
-  </div>
-  <div style="display:inline-block; width:33.33%;">
-    <b>NH₃</b><br>
-    <img src="imgs/NH3.gif" style="width:100%; height:auto;">
-  </div>
-</div>
-
+<table align="center" style="table-layout: fixed; width: 100%;">
+  <tr>
+    <th>SO₂</th>
+    <th>CH₄</th>
+    <th>NH₃</th>
+  </tr>
+  <tr>
+    <td><img src="imgs/SO2.gif" style="width:100%; height:auto;"></td>
+    <td><img src="imgs/CH4.gif" style="width:100%; height:auto;"></td>
+    <td><img src="imgs/NH3.gif" style="width:100%; height:auto;"></td>
+  </tr>
+</table>
 
 > **Citation:**
 > 
