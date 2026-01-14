@@ -13,9 +13,9 @@
 
 <table align="center" style="table-layout: fixed; width: 100%;">
   <tr>
-    <th>SO₂</th>
-    <th>CH₄</th>
-    <th>NH₃</th>
+    <th>SO<sub>2</sub> (Sulfur Dioxide)</th>
+    <th>CH<sub>4</sub> (Methane)</th>
+    <th>NH<sub>3</sub> (Ammonia)</th>
   </tr>
   <tr>
     <td><img src="imgs/SO2.gif" style="width:100%; height:auto;"></td>
