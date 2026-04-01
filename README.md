@@ -9,23 +9,21 @@
 
 ![](imgs/results.png)
 
-### 3. Inference on simulated video as example
+### 3. Inference on a simulated video as an example.
 
 <table align="center" style="table-layout: fixed; width: 100%;">
   <tr>
-    <th>SO<sub>2</sub> (Simlauted Video)</th>
-    <th>CH<sub>4</sub> (CFDNet)</th>
-    <th>NH<sub>3</sub> (UNet)</th>
+    <th>Simlauted Video</th>
+    <th>Output of CFDNet</th>
   </tr>
   <tr>
-    <td><img src="imgs/simu_gas_01_video.mp4" style="width:100%; height:auto;"></td>
+    <td><img src="imgs/simulation_01.gif" style="width:100%; height:auto;"></td>
     <td><img src="output/simulated_01/cfdnet/cfdnet.gif" style="width:100%; height:auto;"></td>
-    <td><img src="output/simulated_01/unet/unet.gif" style="width:100%; height:auto;"></td>
   </tr>
 </table>
 
 
-### 4. More Demo
+### 4. More Real-world Demos of CFDNet
 
 <table align="center" style="table-layout: fixed; width: 100%;">
   <tr>
