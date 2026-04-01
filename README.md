@@ -11,6 +11,10 @@
 
 ### 3. Inference on a simulated video as an example.
 
+```
+python -m infer
+```
+
 <table align="center" style="table-layout: fixed; width: 100%;">
   <tr>
     <th>Simlauted Video</th>

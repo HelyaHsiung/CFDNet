@@ -21,13 +21,13 @@ from utils.render_color import render_input, render_output, render_stacked
 def infer():
     device = torch.device('cuda')
     infer_data_name = "simulated_01"
-    settings = OmegaConf.load(f"./configs/unet_config.yaml")
+    settings = OmegaConf.load(f"./configs/cfdnet_config.yaml")
 
-    datamodule = FramesDataModule(settings)
+    datamodule = VideosDataModule(settings)
     dataloader = datamodule.infer_dataloader(infer_data_name)
-    settings.model.pretrained_parameters_path = "E:/Github/CFDNet/log/UNet-Gas-Segmentation/2024-12-14_21-04-56/UNet_state_dict.pth"
+    settings.model.pretrained_parameters_path = "E:/Github/CFDNet/log/CFDNet-Gas-Segmentation/2025-01-03_11-07-37/CFDNet_state_dict.pth"
     settings.model.pretrained = True
-    model = UNet(settings).to(device)
+    model = CFD_Net(settings).to(device)
     model.eval()
 
     # loss_bce = torch.nn.BCELoss()
