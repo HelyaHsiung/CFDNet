@@ -1,0 +1,53 @@
+experiment_name: "CFDNet-Gas-Segmentation"
+seed: 1234
+
+
+wandb:
+  wandb_project: "MSGasSegmentation"
+  wandb_entity: "haiyangxiongwhustu"
+  images_logging: "wandb" # "local" or "wandb"
+
+
+dataloader:
+  batch_size: 1 # batch size for train, test and val dataloaders, influences the number of batches per epoch, the 'train_log_every_n_steps' should be set accordingly
+  num_workers: 4 # number of workers for the dataloader, should be set to the number of CPUs on the machine
+
+
+model:
+  model_type: "CFDNet"
+  augmentation: True
+  pretrained: True
+  pretrained_parameters_path: "E:/Github/CFDNet/model/utils/pretrained_cfdnet_iod_video_ch3.pth"
+  input_bands: 6
+  bilinear: False
+  num_classes: 1
+  time_steps: 8
+  reduction: 16
+  optimizer: "adam"
+  lr: 0.0001
+  lr_decay: 0.5
+  lr_patience: 4
+  early_stopping_patience: 10
+
+
+training:
+  accelerator: "gpu"
+  devices: 1
+  max_epochs: 100 # number of epochs
+  # Pass a float in the range [0.0, 1.0] to check after a fraction of the training epoch. Pass an int to check after a fixed number of training batches. An int value can only be higher than the number of training batches when
+  val_check_interval: 1.0 # Run validation every XX steps or frac epochs
+  train_log_every_n_steps: 5 # trigger logging after every x batches - for small amount of training batches (caused by large batch size) set it smaller too
+
+
+hydra:
+  job:
+    chdir: True
+    config:
+      override_dirname:
+        exclude_keys:
+          - experiment_name
+  run:
+    dir: log/${experiment_name}/${now:%Y-%m-%d_%H-%M-%S}
+  sweep:
+    dir: log
+    subdir:  ${hydra.job.override_dirname}/${now:%Y-%m-%d_%H-%M-%S}

@@ -59,7 +59,6 @@ class VideosDataModule(LightningDataModule):
         self.dataset_train = VideosDataSet(f"{current_file_path}/csv_videos/train.csv", settings.model.time_steps)
         self.dataset_val = VideosDataSet(f"{current_file_path}/csv_videos/val.csv", settings.model.time_steps)
         self.dataset_test = VideosDataSet(f"{current_file_path}/csv_videos/test.csv", settings.model.time_steps)
-        self.dataset_infer = VideosDataSet(f"{current_file_path}/csv_videos/infer.csv", settings.model.time_steps)
         self.dataset_infer_realworld_01 = VideosDataSet(f"{current_file_path}/csv_videos/realworld_01.csv", settings.model.time_steps)
         self.dataset_infer_realworld_02 = VideosDataSet(f"{current_file_path}/csv_videos/realworld_02.csv", settings.model.time_steps)
         self.dataset_infer_realworld_03 = VideosDataSet(f"{current_file_path}/csv_videos/realworld_03.csv", settings.model.time_steps)
