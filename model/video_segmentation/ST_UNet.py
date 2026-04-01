@@ -207,7 +207,7 @@ class ST_UNet(LightningModule):
         pred_mask = (pred_mask.squeeze(1) > 0.5).detach().cpu().numpy()
         gt_mask = (gt_mask.squeeze(1) > 0).detach().cpu().numpy()
 
-        save_dir = "E:/Python/MS_Gas_Segmentation/log/STUNet-Gas-Segmentation/2024-11-03_08-51-37"
+        save_dir = "E:/Github/CFDNet/log/STUNet-Gas-Segmentation/2024-11-03_08-51-37"
         for i in range(pred_mask.shape[0]):
             cv2.imwrite(
                 f"{save_dir}/{batch_idx:03d}_{i:03d}.png",

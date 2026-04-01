@@ -191,7 +191,7 @@ class MASK_RCNN(LightningModule):
         pred_mask = (pred_mask.squeeze(1) > 0.5).detach().cpu().numpy()
         gt_mask = (gt_mask.squeeze(1) > 0).detach().cpu().numpy()
 
-        save_dir = "E:/Python/MS_Gas_Segmentation/log/MASKRCNN-Gas-Segmentation/2024-12-25_23-28-28"
+        save_dir = "E:/Github/CFDNet/log/MASKRCNN-Gas-Segmentation/2024-12-25_23-28-28"
         for i in range(pred_mask.shape[0]):
             cv2.imwrite(
                 f"{save_dir}/{batch_idx:03d}_{i:03d}.png",

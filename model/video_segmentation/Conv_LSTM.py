@@ -187,7 +187,7 @@ class ConvLSTM(LightningModule):
         pred_mask = (pred_mask.squeeze(1) > 0.5).detach().cpu().numpy()
         gt_mask = (gt_mask.squeeze(1) > 0).detach().cpu().numpy()
 
-        save_dir = "E:/Python/MS_Gas_Segmentation/log/ConvLSTM-Gas-Segmentation/2024-11-21_20-04-32"
+        save_dir = "E:/Github/CFDNet/log/ConvLSTM-Gas-Segmentation/2024-11-21_20-04-32"
         for i in range(pred_mask.shape[0]):
             cv2.imwrite(
                 f"{save_dir}/{batch_idx:03d}_{i:03d}.png",

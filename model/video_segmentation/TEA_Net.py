@@ -144,7 +144,7 @@ class TEA_Net(LightningModule):
         pred_mask = (pred_mask.squeeze(1) > 0.5).detach().cpu().numpy()
         gt_mask = (gt_mask.squeeze(1) > 0).detach().cpu().numpy()
 
-        save_dir = "E:/Python/MS_Gas_Segmentation/log/TEANet-Gas-Segmentation/2024-11-04_20-22-03"
+        save_dir = "E:/Github/CFDNet/log/TEANet-Gas-Segmentation/2024-11-04_20-22-03"
         for i in range(pred_mask.shape[0]):
             cv2.imwrite(
                 f"{save_dir}/{batch_idx:03d}_{i:03d}.png",
